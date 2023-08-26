@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Barlow";
+  src: url("../src/fonts/BarlowSemiCondensed-Regular.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Black.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-BlackItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Bold.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-BoldItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-ExtraBold.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-ExtraBoldItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-ExtraLight.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-ExtraLightItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Italic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Light.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-LightItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Medium.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-MediumItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-SemiBold.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-SemiBoldItalic.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-Thin.ttf"),
+    url("../src/fonts/BarlowSemiCondensed-ThinItalic.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(210, 46%, 95%);
+}

@@ -1,0 +1,93 @@
+@media (max-width: 678px) {
+  .main {
+    display: grid;
+    padding: 20% 5%;
+  }
+  .left {
+    display: grid;
+    margin-left: auto;
+  }
+  .daniel {
+    display: grid;
+    font-family: "Barlow";
+    color: white;
+    background: url("../assets/bg-pattern-quotation.svg"), hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    padding: 10%;
+    border-radius: 20px;
+    background-position: 90% top;
+    background-size: 30%;
+  }
+
+  .jonathan {
+    display: grid;
+    font-family: "Barlow";
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+    padding: 10%;
+    border-radius: 20px;
+    margin-top: 10%;
+  }
+
+  .jeanette {
+    display: grid;
+    font-family: "Barlow";
+    color: hsl(219, 29%, 14%);
+    background-color: white;
+    padding: 10%;
+    border-radius: 20px;
+    margin-top: 10%;
+  }
+
+  .patrick {
+    display: grid;
+    font-family: "Barlow";
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    padding: 10%;
+    border-radius: 20px;
+    margin-top: 10%;
+  }
+  .kira {
+    display: grid;
+    font-family: "Barlow";
+    color: hsl(219, 29%, 14%);
+    background-color: white;
+    padding: 10%;
+    border-radius: 20px;
+    margin-top: 10%;
+  }
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  .profile {
+    border-radius: 50px;
+    width: 10%;
+    border: 2px solid hsl(0, 0%, 100%, 0.5);
+  }
+  .name-designation-container {
+    display: grid;
+    margin-left: 5%;
+  }
+
+  .name {
+    font-size: 90%;
+  }
+
+  .designation {
+    font-size: 80%;
+    opacity: 0.5;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 130%;
+    margin: 5% 0%;
+  }
+  .content {
+    font-size: 90%;
+    line-height: 1.5em;
+    opacity: 0.5;
+  }
+}

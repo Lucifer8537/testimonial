@@ -1,0 +1,124 @@
+@media (min-width: 679px) {
+  .main-container {
+    margin-top: 3%;
+  }
+  .main {
+    display: flex;
+    width: 100%;
+  }
+  .left {
+    width: 880px;
+    display: grid;
+    margin-left: auto;
+  }
+
+  .top-left {
+    display: flex;
+  }
+  .daniel {
+    display: grid;
+    width: 55%;
+    font-family: "Barlow";
+    color: white;
+    background: url("../assets/bg-pattern-quotation.svg"), hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    border-radius: 20px;
+    background-position: 80% top;
+    background-size: 17%;
+  }
+
+  .gap-r {
+    margin-right: 30px;
+  }
+
+  .jonathan {
+    display: grid;
+    width: 25%;
+    font-family: "Barlow";
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+    padding: 25px 30px;
+    border-radius: 20px;
+  }
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile {
+    border-radius: 50px;
+    width: 35px;
+    border: 2px solid hsl(0, 0%, 100%, 0.5);
+  }
+
+  .name-designation-container {
+    display: grid;
+    margin-left: 2%;
+  }
+
+  .name {
+    font-size: 90%;
+  }
+
+  .designation {
+    font-size: 80%;
+    opacity: 0.5;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 130%;
+    margin: 10px 0px;
+  }
+  .content {
+    font-size: 85%;
+    line-height: 1.5em;
+    opacity: 0.5;
+  }
+
+  .bottom-left {
+    display: flex;
+    margin-top: 2%;
+  }
+
+  .jeanette {
+    display: grid;
+    width: 25%;
+    font-family: "Barlow";
+    color: hsl(219, 29%, 14%);
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+  }
+
+  .patrick {
+    display: grid;
+    width: 55%;
+    font-family: "Barlow";
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    padding: 25px 30px;
+    border-radius: 20px;
+  }
+
+  .right {
+    width: 260px;
+    margin-right: auto;
+  }
+
+  .kira {
+    display: grid;
+    font-family: "Barlow";
+    color: hsl(219, 29%, 14%);
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+    height: 92%;
+  }
+
+  .purple {
+    border-color: hsl(263, 55%, 52%);
+  }
+}
